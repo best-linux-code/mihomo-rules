@@ -1,0 +1,41 @@
+NOTICE
+======
+
+This repository contains software and data subject to third-party licenses.
+
+
+1. china_ip_list (IP data source)
+----------------------------------
+
+The file `china_ip_list.txt` and the IP prefixes embedded in `geoip.dat`
+under the `CN` tag are derived from:
+
+  Project : china_ip_list
+  Author  : 17mon
+  URL     : https://github.com/17mon/china_ip_list
+  License : Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+            International (CC-BY-NC-SA 4.0)
+            https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You must comply with the CC-BY-NC-SA 4.0 terms when redistributing or
+adapting any file in this repository that incorporates that data. In
+particular, non-commercial use only, attribution required, and any
+derivative works must be shared under the same license.
+
+
+2. PRIVATE ranges
+------------------
+
+The `PRIVATE` tag in `geoip.dat` is built from well-known standard
+special-purpose and private address ranges (RFC 1112, RFC 1122, RFC 1918,
+RFC 2544, RFC 3068, RFC 3171, RFC 3927, RFC 4193, RFC 4291, RFC 4843,
+RFC 5737, RFC 6598, RFC 6890). These ranges are not derived from any
+third-party dataset and carry no additional license restrictions.
+
+
+3. Generator code
+------------------
+
+The Python source code in this repository (generate_geoip.py, geoip_gen/,
+tests/) is copyright 2026 mihomo-rules contributors and is released
+under the MIT License. See the LICENSE file for the full text.
